@@ -1,0 +1,11 @@
+.cause {
+  padding: 2px 5px;
+  min-height: 40px;
+  border: 8px solid #20b55f;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin-right: 10px;
+}

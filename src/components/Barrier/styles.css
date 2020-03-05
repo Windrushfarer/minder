@@ -1,0 +1,15 @@
+.barrier {
+  padding: 2px 5px;
+  min-height: 20px;
+  border: 8px solid #0096eb;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 150;
+
+  & + & {
+    margin-left: 10px;
+  }
+}

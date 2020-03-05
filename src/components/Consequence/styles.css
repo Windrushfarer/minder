@@ -1,0 +1,11 @@
+.consequence {
+  padding: 2px 5px;
+  min-height: 40px;
+  border: 8px solid #eb5757;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin-left: 10px;
+}

@@ -1,0 +1,12 @@
+.tree {
+  display: flex;
+  flex-direction: column;
+
+  &_reverse &__row {
+    justify-content: flex-start;
+  }
+
+  &__row + &__row {
+    margin-top: 20px;
+  }
+}

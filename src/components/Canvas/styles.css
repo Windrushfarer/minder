@@ -1,0 +1,18 @@
+.canvas {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background: #f0f3f5;
+  position: relative;
+  z-index: calc(var(--z-index-skeleton) - 20);
+  display: flex;
+  align-items: center;
+
+  &__wrapper {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px 150px;
+  }
+}

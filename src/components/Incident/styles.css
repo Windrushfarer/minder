@@ -1,0 +1,15 @@
+.incident {
+  padding: 5px 10px;
+  min-height: 20px;
+  border: 8px solid #f38b00;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+  margin: 0 10px;
+
+  &__name {
+    color: #000;
+  }
+}
